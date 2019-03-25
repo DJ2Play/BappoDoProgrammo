@@ -89,35 +89,35 @@ public class Menu {
 	}
 	public void userMenu() {
 		System.out.println("================");
-		System.out.println(" User Menu ");
+		System.out.println("= User Menu =");
 		System.out.println("================");
-		System.out.println(" 1) Search book ");
-		System.out.println(" 2) Search library");
-		System.out.println(" 3) Loan book ");
-		System.out.println(" 4) Return book ");
-		System.out.println(" 5) Exit ");
+		System.out.println("= 1) Search book =");
+		System.out.println("= 2) Search library =");
+		System.out.println("= 3) Loan book =");
+		System.out.println("= 4) Return book =");
+		System.out.println("= 5) Exit =");
 		System.out.println("================");
 		System.out.println("Enter your option:");
 	}
 	public void mainMenu() {
 		System.out.println("===============");
-		System.out.println(" 1) Staff Menu");
-		System.out.println(" 2) User Menu");
-		System.out.println(" 3) Exit");
+		System.out.println("= 1) Staff Menu =");
+		System.out.println("= 2) User Menu =");
+		System.out.println("= 3) Exit =");
 		System.out.println("===============");
-		System.out.println("Enter your option:");
+		System.out.println("= Enter your option: =");
 	}
 	public void adminMenu() {
 		System.out.println("===============");
-		System.out.println(" Staff Menu");
+		System.out.println("= Staff Menu =");
 		System.out.println("===============");
-		System.out.println(" 1) Add library");
-		System.out.println(" 2) Add or delete book to/from library");
-		System.out.println(" 3) View statistics from a library");
-		System.out.println(" 4) View statistics from the net");
-		System.out.println(" 5) Exit");
+		System.out.println("= 1) Add library =");
+		System.out.println("= 2) Add or delete book to/from library =");
+		System.out.println("= 3) View statistics from a library =");
+		System.out.println("= 4) View statistics from the net =");
+		System.out.println("= 5) Exit =");
 		System.out.println("===============");
-		System.out.println("Enter your option:");
+		System.out.println("= Enter your option: =");
 	}
 	public LibraryCompany getLbc() {
 		return lbc;
