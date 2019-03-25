@@ -36,7 +36,7 @@ public class Menu {
 							case 5:
 								break;
 							default:
-								System.out.println("Enter a valid option! Please try again");
+								System.out.println("Wrong op.");
 								break;
 							}
 						}
@@ -81,7 +81,7 @@ public class Menu {
 		String username = sc.nextLine();
 		System.out.print("Enter your password: ");
 		String psw = sc.nextLine();
-		if (username.equals("admin") && psw.equals("12345678")) {
+		if (username.equals("admin") && psw.equals("987654321")) {
 			return true;
 		} else {
 			return false;
@@ -111,11 +111,11 @@ public class Menu {
 		System.out.println("===============");
 		System.out.println("= Staff Menu =");
 		System.out.println("===============");
-		System.out.println("= 1) Add library =");
-		System.out.println("= 2) Add or delete book to/from library =");
-		System.out.println("= 3) View statistics from a library =");
-		System.out.println("= 4) View statistics from the net =");
-		System.out.println("= 5) Exit =");
+		System.out.println(" 1) Add library to program");
+		System.out.println(" 2) Add or delete book to/from library");
+		System.out.println(" 3) View statistics from a library");
+		System.out.println(" 4) View statistics from the net");
+		System.out.println(" 5) Exit");
 		System.out.println("===============");
 		System.out.println("= Enter your option: =");
 	}
